@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.H. ENTERPRISES | Eco-Friendly Disposable Products Manufacturer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        eco: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html,
+        body {
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        .font-display {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        /* Hide scrollbar for horizontal mobile filter pills while keeping scrollability */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        @keyframes floatSlow {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-6px);
+            }
+        }
+
+        .animate-float {
+            animation: floatSlow 3.5s ease-in-out infinite;
+        }
+
+        .animate-float-delayed {
+            animation: floatSlow 4.2s ease-in-out 1s infinite;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen antialiased">
+
+    <!-- Top Vibrant Announcement Bar -->
+    <div
+        class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-900 text-white text-xs sm:text-sm py-2 px-4 border-b border-emerald-800/60">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-4 min-w-0">
+                <span class="flex items-center truncate">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 mr-1.5 text-amber-300 shrink-0"></i>
+                    <span class="truncate">No.44, Thiruvalluvar Nagar, Ambattur, Chennai - 600053</span>
+                </span>
+                <span class="hidden lg:flex items-center shrink-0 text-emerald-200">
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5 mr-1.5 text-amber-300"></i> Direct Factory Manufacturer
+                    • Est. 2018
+                </span>
+            </div>
+            <div class="flex items-center space-x-3 sm:space-x-4 font-medium shrink-0">
+                <a href="tel:+917010948118" class="hover:text-amber-300 transition flex items-center py-1">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 mr-1 text-emerald-300"></i> +91-7010948118
+                </a>
+                <a href="tel:+919003201973" class="hover:text-amber-300 transition hidden md:flex items-center py-1">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 mr-1 text-emerald-300"></i> +91-9003201973
+                </a>
+                <a href="https://wa.me/917010948118?text=Hello%20G.H.%20Enterprises,%20I%20would%20like%20to%20place%20an%20inquiry."
+                    target="_blank" rel="noopener"
+                    class="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 px-3 py-1 rounded-full text-white font-bold text-xs flex items-center transition shadow-sm">
+                    <i data-lucide="message-circle" class="w-3.5 h-3.5 mr-1"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Responsive Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 sm:h-20">
+                <!-- Brand Logo -->
+                <a href="#home" class="flex items-center space-x-2.5 sm:space-x-3 min-w-0 group">
+                    <div
+                        class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-700 text-white flex flex-col items-center justify-center shrink-0 shadow-md group-hover:scale-105 transition">
+                        <span
+                            class="font-display font-extrabold text-sm sm:text-base leading-none tracking-tight">GH</span>
+                        <i data-lucide="leaf" class="w-3.5 h-3.5 text-amber-300 mt-0.5"></i>
+                    </div>
+                    <div class="min-w-0">
+                        <span
+                            class="block font-display font-extrabold text-base sm:text-xl text-emerald-950 tracking-tight truncate">G.H.
+                            ENTERPRISES</span>
+                        <span
+                            class="block text-[10px] sm:text-xs font-semibold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent truncate">Eco-Friendly
+                            • Sustainable • Biodegradable</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold text-slate-700">
+                    <a href="#home" class="hover:text-emerald-600 transition py-2">Home</a>
+                    <a href="#why-us" class="hover:text-emerald-600 transition py-2">Why Choose Us</a>
+                    <a href="#products" class="hover:text-emerald-600 transition py-2">Products</a>
+                    <a href="#calculator" class="hover:text-emerald-600 transition py-2">Price Estimator</a>
+                    <a href="#about" class="hover:text-emerald-600 transition py-2">Who We Are</a>
+                    <a href="#contact" class="hover:text-emerald-600 transition py-2">Contact</a>
+                </nav>
+
+                <!-- Desktop & Mobile Action Buttons -->
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <a href="tel:+917010948118"
+                        class="hidden sm:inline-flex items-center justify-center min-h-[44px] px-4 py-2 rounded-xl border border-emerald-200 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs sm:text-sm font-bold transition">
+                        <i data-lucide="phone-call" class="w-4 h-4 mr-1.5 text-emerald-600"></i> Call Now
+                    </a>
+                    <a href="#calculator"
+                        class="hidden md:inline-flex items-center justify-center min-h-[44px] px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 text-xs sm:text-sm font-extrabold shadow-sm transition">
+                        Instant Quote
+                    </a>
+                    <!-- Mobile Hamburger Button (44px+ touch target) -->
+                    <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu" aria-expanded="false"
+                        class="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl border border-emerald-200 bg-emerald-50/70 text-emerald-900 hover:bg-emerald-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition">
+                        <i data-lucide="menu" id="menu-icon-open" class="w-6 h-6"></i>
+                        <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 hidden"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Collapsible Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-emerald-100 shadow-xl">
+            <div class="px-4 pt-3 pb-5 space-y-1.5">
+                <a href="#home"
+                    class="mobile-nav-link flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition">Home</a>
+                <a href="#why-us"
+                    class="mobile-nav-link flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition">Why
+                    Choose Us</a>
+                <a href="#products"
+                    class="mobile-nav-link flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition">Products
+                    & Pricing</a>
+                <a href="#calculator"
+                    class="mobile-nav-link flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition">Order
+                    Price Estimator</a>
+                <a href="#about"
+                    class="mobile-nav-link flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition">Who
+                    We Are</a>
+                <a href="#contact"
+                    class="mobile-nav-link flex items-center min-h-[44px] px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 transition">Contact
+                    Us</a>
+
+                <div class="pt-3 border-t border-slate-100 grid grid-cols-2 gap-2.5">
+                    <a href="tel:+917010948118"
+                        class="flex items-center justify-center min-h-[44px] px-3 py-2.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
+                        <i data-lucide="phone" class="w-4 h-4 mr-1.5"></i> Call Us
+                    </a>
+                    <a href="https://wa.me/917010948118?text=Hello%20G.H.%20Enterprises,%20I%20would%20like%20to%20request%20a%20quote."
+                        target="_blank" rel="noopener"
+                        class="flex items-center justify-center min-h-[44px] px-3 py-2.5 rounded-xl bg-gradient-to-r from-green-600 to-emerald-600 text-white text-xs font-bold shadow-sm">
+                        <i data-lucide="message-circle" class="w-4 h-4 mr-1.5"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Vibrant & Catchy Hero Section -->
+    <section id="home"
+        class="relative bg-gradient-to-br from-emerald-950 via-emerald-900 to-teal-900 text-white pt-10 pb-16 sm:pt-16 sm:pb-24 overflow-hidden">
+        <!-- Decorative Colorful Glow Blobs -->
+        <div
+            class="absolute -top-24 -left-24 w-72 h-72 sm:w-96 sm:h-96 bg-emerald-400/20 rounded-full blur-3xl pointer-events-none">
+        </div>
+        <div
+            class="absolute top-1/3 -right-20 w-72 h-72 sm:w-96 sm:h-96 bg-amber-400/15 rounded-full blur-3xl pointer-events-none">
+        </div>
+        <div class="absolute -bottom-24 left-1/3 w-80 h-80 bg-teal-400/20 rounded-full blur-3xl pointer-events-none">
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                <!-- Left Catchy Hero Content -->
+                <div class="lg:col-span-7 space-y-5 sm:space-y-6 text-center lg:text-left">
+                    <!-- Floating Highlight Badges -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2">
+                        <span
+                            class="inline-flex items-center px-3.5 py-1.5 rounded-full bg-emerald-800/80 border border-emerald-500/40 text-emerald-200 text-xs font-bold backdrop-blur-sm">
+                            <i data-lucide="leaf" class="w-3.5 h-3.5 mr-1.5 text-lime-300"></i> 100% Biodegradable
+                        </span>
+                        <span
+                            class="inline-flex items-center px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-400/40 text-amber-200 text-xs font-bold backdrop-blur-sm">
+                            <i data-lucide="award" class="w-3.5 h-3.5 mr-1.5 text-amber-300"></i> Est. 2018 • Chennai
+                        </span>
+                        <span
+                            class="inline-flex items-center px-3.5 py-1.5 rounded-full bg-teal-800/80 border border-teal-400/40 text-teal-200 text-xs font-bold backdrop-blur-sm">
+                            <i data-lucide="factory" class="w-3.5 h-3.5 mr-1.5 text-teal-300"></i> Direct Factory
+                            Pricing
+                        </span>
+                    </div>
+
+                    <h1
+                        class="font-display text-3xl sm:text-5xl lg:text-[3.4rem] font-extrabold tracking-tight leading-[1.15]">
+                        Eco-Friendly Choices for a <span
+                            class="bg-gradient-to-r from-lime-300 via-amber-300 to-yellow-200 bg-clip-text text-transparent">Better
+                            Tomorrow</span>
+                    </h1>
+
+                    <p
+                        class="text-sm sm:text-base lg:text-lg text-emerald-100/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Switch to hygienic, plastic-free <strong class="text-white">Paper Plates (Sizes 6–13)</strong>,
+                        <strong class="text-white">Soft Tissue Papers</strong>, and <strong class="text-white">Paper
+                            Cups (90ml–300ml)</strong>—crafted for events, restaurants, caterers, and wholesale buyers.
+                    </p>
+
+                    <!-- Dual High-Contrast CTAs -->
+                    <div
+                        class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3.5 pt-2">
+                        <a href="#products"
+                            class="inline-flex items-center justify-center min-h-[50px] px-7 py-3.5 rounded-2xl bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-extrabold text-sm sm:text-base shadow-lg shadow-amber-500/25 transition transform hover:-translate-y-0.5">
+                            <i data-lucide="sparkles" class="w-5 h-5 mr-2"></i> Explore Catalog
+                        </a>
+                        <a href="https://wa.me/917010948118?text=Hello%20G.H.%20Enterprises,%20I%20would%20like%20an%20instant%20quote%20for%20your%20products."
+                            target="_blank" rel="noopener"
+                            class="inline-flex items-center justify-center min-h-[50px] px-7 py-3.5 rounded-2xl bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-400 hover:to-emerald-400 text-white font-extrabold text-sm sm:text-base shadow-lg shadow-emerald-500/25 transition transform hover:-translate-y-0.5">
+                            <i data-lucide="message-circle" class="w-5 h-5 mr-2"></i> Instant WhatsApp Quote
+                        </a>
+                    </div>
+
+                    <!-- Vibrant Stats Bar -->
+                    <div class="grid grid-cols-3 gap-2.5 sm:gap-4 pt-4 max-w-lg mx-auto lg:mx-0">
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-2xl border border-white/15 text-center">
+                            <span class="block font-display text-lg sm:text-2xl font-extrabold text-lime-300">8
+                                Sizes</span>
+                            <span class="block text-[11px] sm:text-xs text-emerald-100 font-medium">Paper Plates
+                                (6–13)</span>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-2xl border border-white/15 text-center">
+                            <span class="block font-display text-lg sm:text-2xl font-extrabold text-amber-300">5
+                                Packs</span>
+                            <span class="block text-[11px] sm:text-xs text-emerald-100 font-medium">Soft Tissue
+                                (50–100)</span>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-2xl border border-white/15 text-center">
+                            <span class="block font-display text-lg sm:text-2xl font-extrabold text-teal-300">4
+                                Sizes</span>
+                            <span class="block text-[11px] sm:text-xs text-emerald-100 font-medium">Paper Cups
+                                (90–300ml)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Colorful Product Showcase Cards -->
+                <div class="lg:col-span-5">
+                    <div
+                        class="bg-white/95 backdrop-blur-xl text-slate-800 p-5 sm:p-6 rounded-3xl shadow-2xl border border-emerald-200/60 space-y-4">
+                        <div class="flex justify-between items-center border-b border-slate-100 pb-3">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                                <span class="text-xs font-extrabold text-emerald-900 uppercase tracking-wider">Factory
+                                    Direct Range</span>
+                            </div>
+                            <span
+                                class="text-[11px] font-bold bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-800 px-3 py-1 rounded-full">Bulk
+                                & Retail</span>
+                        </div>
+
+                        <!-- 3 Colorful Product Cards -->
+                        <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-3">
+                            <!-- Card 1: Paper Plates -->
+                            <a href="#products"
+                                class="group flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-emerald-50 to-green-50 hover:from-emerald-100 hover:to-green-100 border border-emerald-200/80 transition">
+                                <div class="flex items-center space-x-3">
+                                    <div
+                                        class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 text-white flex items-center justify-center shadow-sm shrink-0 group-hover:scale-105 transition">
+                                        <i data-lucide="disc" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h2 class="font-display font-bold text-sm text-slate-900">Paper Plates</h2>
+                                        <p class="text-xs text-slate-600">Sizes 6" to 13" (24 Pcs/pack)</p>
+                                    </div>
+                                </div>
+                                <span
+                                    class="text-xs font-extrabold text-emerald-800 bg-white px-3 py-1.5 rounded-xl shadow-xs border border-emerald-200">From
+                                    ₹10</span>
+                            </a>
+
+                            <!-- Card 2: Soft Tissue Papers -->
+                            <a href="#products"
+                                class="group flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-teal-50 to-cyan-50 hover:from-teal-100 hover:to-cyan-100 border border-teal-200/80 transition">
+                                <div class="flex items-center space-x-3">
+                                    <div
+                                        class="w-11 h-11 rounded-xl bg-gradient-to-br from-teal-500 to-cyan-600 text-white flex items-center justify-center shadow-sm shrink-0 group-hover:scale-105 transition">
+                                        <i data-lucide="layers" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h2 class="font-display font-bold text-sm text-slate-900">Soft Tissue Papers
+                                        </h2>
+                                        <p class="text-xs text-slate-600">50 to 100 Pcs • Custom Print</p>
+                                    </div>
+                                </div>
+                                <span
+                                    class="text-xs font-extrabold text-teal-800 bg-white px-3 py-1.5 rounded-xl shadow-xs border border-teal-200">From
+                                    ₹11</span>
+                            </a>
+
+                            <!-- Card 3: Paper Cups -->
+                            <a href="#products"
+                                class="group flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 border border-amber-200/80 transition">
+                                <div class="flex items-center space-x-3">
+                                    <div
+                                        class="w-11 h-11 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 text-white flex items-center justify-center shadow-sm shrink-0 group-hover:scale-105 transition">
+                                        <i data-lucide="coffee" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h2 class="font-display font-bold text-sm text-slate-900">Paper Cups</h2>
+                                        <p class="text-xs text-slate-600">90ml, 110ml, 250ml, 300ml</p>
+                                    </div>
+                                </div>
+                                <span
+                                    class="text-xs font-extrabold text-amber-800 bg-white px-3 py-1.5 rounded-xl shadow-xs border border-amber-200">Bulk
+                                    Quote</span>
+                            </a>
+                        </div>
+
+                        <!-- Custom Printing Promo Strip -->
+                        <div
+                            class="bg-gradient-to-r from-emerald-900 via-teal-900 to-emerald-950 text-white p-4 rounded-2xl flex items-center justify-between gap-3 shadow-md">
+                            <div>
+                                <span
+                                    class="inline-block text-[10px] uppercase tracking-wider font-bold text-amber-300">Brand
+                                    Customization</span>
+                                <p class="text-xs sm:text-sm font-bold mt-0.5">₹2 Extra for customized tissue printing
+                                </p>
+                            </div>
+                            <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0">
+                                <i data-lucide="printer" class="w-5 h-5 text-amber-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Colorful "Why Choose Us?" Trust Strip -->
+    <section id="why-us"
+        class="py-12 sm:py-16 bg-gradient-to-b from-emerald-50/70 via-white to-amber-50/30 border-b border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+                <span
+                    class="inline-block px-3.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-bold text-xs tracking-wider uppercase">Our
+                    Promise</span>
+                <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900">Why Choose G.H. Enterprises?
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base">Committed to environmental responsibility, hygienic
+                    manufacturing, and reliable bulk delivery.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-5">
+                <!-- 1. Eco-Friendly Products -->
+                <div
+                    class="p-5 rounded-2xl bg-gradient-to-br from-emerald-50 to-green-100/60 border border-emerald-200/80 text-center hover:shadow-md transition transform hover:-translate-y-1 space-y-3">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-600 text-white flex items-center justify-center mx-auto shadow-md">
+                        <i data-lucide="leaf" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-slate-900 text-sm sm:text-base">Eco-Friendly Products</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Sustainable paper disposables made to replace
+                        single-use plastics.</p>
+                </div>
+
+                <!-- 2. Biodegradable Materials -->
+                <div
+                    class="p-5 rounded-2xl bg-gradient-to-br from-teal-50 to-cyan-100/60 border border-teal-200/80 text-center hover:shadow-md transition transform hover:-translate-y-1 space-y-3">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-gradient-to-br from-teal-500 to-cyan-600 text-white flex items-center justify-center mx-auto shadow-md">
+                        <i data-lucide="recycle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-slate-900 text-sm sm:text-base">Biodegradable Materials</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Decomposes naturally without leaving harmful
+                        plastic waste behind.</p>
+                </div>
+
+                <!-- 3. Safe & Hygienic -->
+                <div
+                    class="p-5 rounded-2xl bg-gradient-to-br from-sky-50 to-blue-100/60 border border-sky-200/80 text-center hover:shadow-md transition transform hover:-translate-y-1 space-y-3">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 text-white flex items-center justify-center mx-auto shadow-md">
+                        <i data-lucide="shield-check" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-slate-900 text-sm sm:text-base">Safe & Hygienic</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Produced in clean facilities using food-grade,
+                        skin-safe paper.</p>
+                </div>
+
+                <!-- 4. Quality Manufacturing -->
+                <div
+                    class="p-5 rounded-2xl bg-gradient-to-br from-amber-50 to-yellow-100/60 border border-amber-200/80 text-center hover:shadow-md transition transform hover:-translate-y-1 space-y-3">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 text-white flex items-center justify-center mx-auto shadow-md">
+                        <i data-lucide="factory" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-slate-900 text-sm sm:text-base">Quality Manufacturing</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">In-house production in Chennai ensuring consistent
+                        strength and finish.</p>
+                </div>
+
+                <!-- 5. Bulk Orders Available -->
+                <div
+                    class="p-5 rounded-2xl bg-gradient-to-br from-lime-50 to-emerald-100/60 border border-lime-200/80 text-center hover:shadow-md transition transform hover:-translate-y-1 space-y-3 sm:col-span-2 lg:col-span-1">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-gradient-to-br from-lime-600 to-emerald-600 text-white flex items-center justify-center mx-auto shadow-md">
+                        <i data-lucide="package-check" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-slate-900 text-sm sm:text-base">Bulk Orders Available</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">Ready capacity for caterers, wholesalers,
+                        restaurants, and events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Product Catalog Section -->
+    <section id="products" class="py-12 sm:py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-2.5 mb-8 sm:mb-10">
+                <span
+                    class="inline-block px-3.5 py-1 rounded-full bg-teal-100 text-teal-800 font-bold text-xs tracking-wider uppercase">Our
+                    Product Catalog</span>
+                <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900">Eco-Friendly Disposable
+                    Range</h2>
+                <p class="text-slate-600 text-sm sm:text-base">Hygienic, biodegradable paper products for catering,
+                    events, restaurants, and wholesale supply.</p>
+            </div>
+
+            <!-- Colorful Category Filter Tabs & Search -->
+            <div class="flex flex-col md:flex-row justify-between items-stretch md:items-center gap-3 sm:gap-4 mb-8">
+                <!-- Horizontally Scrollable Category Tabs on Mobile -->
+                <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 -mx-4 px-4 md:mx-0 md:px-0">
+                    <button onclick="filterCategory('all')" id="cat-all"
+                        class="cat-btn shrink-0 min-h-[44px] px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-sm">
+                        All Products
+                    </button>
+                    <button onclick="filterCategory('plates')" id="cat-plates"
+                        class="cat-btn shrink-0 min-h-[44px] px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition bg-white text-slate-700 hover:bg-emerald-50 border border-slate-200">
+                        Paper Plates (6–13)
+                    </button>
+                    <button onclick="filterCategory('tissues')" id="cat-tissues"
+                        class="cat-btn shrink-0 min-h-[44px] px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition bg-white text-slate-700 hover:bg-teal-50 border border-slate-200">
+                        Tissue Papers
+                    </button>
+                    <button onclick="filterCategory('cups')" id="cat-cups"
+                        class="cat-btn shrink-0 min-h-[44px] px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition bg-white text-slate-700 hover:bg-amber-50 border border-slate-200">
+                        Paper Cups (4 Sizes)
+                    </button>
+                </div>
+
+                <!-- Search Input -->
+                <div class="relative w-full md:w-64">
+                    <input type="text" id="catalog-search" oninput="searchCatalog()"
+                        placeholder="Search size or product..."
+                        class="w-full min-h-[44px] pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white shadow-xs">
+                    <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                </div>
+            </div>
+
+            <!-- Responsive Product Cards Grid -->
+            <div id="catalog-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- 1. Paper Plates Card -->
+                <div
+                    class="catalog-item category-plates bg-white rounded-3xl overflow-hidden shadow-sm border border-emerald-100 hover:shadow-xl transition flex flex-col">
+                    <div
+                        class="h-44 sm:h-48 bg-gradient-to-br from-emerald-100 via-green-50 to-lime-100 relative flex items-center justify-center p-4 overflow-hidden">
+                        <!-- Clean SVG Illustration for Paper Plates -->
+                        <svg viewBox="0 0 320 160" class="w-full h-full max-h-40" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Eco-Friendly Paper Plates Stack Sizes 6 to 13">
+                            <circle cx="160" cy="82" r="68" fill="#a7f3d0" opacity="0.6" />
+                            <!-- Bottom Large Plate -->
+                            <ellipse cx="160" cy="116" rx="95" ry="20" fill="#dcfce7" stroke="#15803d"
+                                stroke-width="2.2" />
+                            <ellipse cx="160" cy="113" rx="76" ry="13" fill="none" stroke="#16a34a" stroke-width="1.2"
+                                stroke-dasharray="3 2" />
+                            <!-- Middle Plate -->
+                            <ellipse cx="160" cy="94" rx="82" ry="18" fill="#ffffff" stroke="#15803d"
+                                stroke-width="2.2" />
+                            <ellipse cx="160" cy="91" rx="64" ry="11" fill="none" stroke="#16a34a" stroke-width="1.2"
+                                stroke-dasharray="3 2" />
+                            <!-- Top Plate -->
+                            <ellipse cx="160" cy="72" rx="68" ry="16" fill="#f0fdf4" stroke="#15803d"
+                                stroke-width="2.5" />
+                            <ellipse cx="160" cy="70" rx="50" ry="10" fill="#ffffff" stroke="#16a34a"
+                                stroke-width="1.4" />
+                            <text x="160" y="73" text-anchor="middle" font-size="9" font-weight="800" fill="#14532d"
+                                font-family="Plus Jakarta Sans, sans-serif">SIZES 6" - 13"</text>
+                        </svg>
+                        <span
+                            class="absolute top-3 right-3 bg-emerald-700 text-white text-xs px-3 py-1 rounded-full font-bold shadow-sm">24
+                            Pieces / Pack</span>
+                    </div>
+
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-start gap-2">
+                                <h3 class="font-display font-extrabold text-lg text-slate-900">Paper Plates</h3>
+                                <span
+                                    class="text-xs font-bold bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-lg shrink-0">Sizes
+                                    6 to 13</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">Sturdy, food-grade biodegradable paper
+                                plates. Ideal for snacks, tiffin, meals, and catering functions.</p>
+
+                            <!-- Pricing Table -->
+                            <div class="border border-emerald-100 rounded-2xl overflow-x-auto text-xs">
+                                <table class="w-full text-left border-collapse">
+                                    <thead>
+                                        <tr
+                                            class="bg-emerald-50 text-emerald-900 font-bold border-b border-emerald-100">
+                                            <th class="py-2 px-3">Size</th>
+                                            <th class="py-2 px-3">Quantity</th>
+                                            <th class="py-2 px-3 text-right">Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-slate-100">
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 6</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹10</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 7</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹13</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 8</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹16</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 9</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹20</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 10</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹27</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 11</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹36</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 12</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹46</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-1.5 px-3 font-medium text-slate-700">Size 13</td>
+                                            <td class="py-1.5 px-3 text-slate-500">24 Pieces</td>
+                                            <td class="py-1.5 px-3 text-right font-extrabold text-emerald-800">₹56</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <button type="button" onclick="quickSelectProduct('plate')"
+                            class="w-full min-h-[44px] bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl transition flex items-center justify-center shadow-sm">
+                            <i data-lucide="plus-circle" class="w-4 h-4 mr-1.5"></i> Add to Estimate
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 2. Soft Tissue Papers Card -->
+                <div
+                    class="catalog-item category-tissues bg-white rounded-3xl overflow-hidden shadow-sm border border-teal-100 hover:shadow-xl transition flex flex-col">
+                    <div
+                        class="h-44 sm:h-48 bg-gradient-to-br from-teal-100 via-cyan-50 to-emerald-100 relative flex items-center justify-center p-4 overflow-hidden">
+                        <!-- Clean SVG Illustration for Soft Tissue Papers -->
+                        <svg viewBox="0 0 320 160" class="w-full h-full max-h-40" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Soft Tissue Paper Packs">
+                            <circle cx="160" cy="82" r="68" fill="#99f6e4" opacity="0.6" />
+                            <!-- Tissue Sheet Popping Out -->
+                            <path d="M125,65 Q145,22 165,42 Q185,20 198,65 Z" fill="#ffffff" stroke="#0f766e"
+                                stroke-width="2" stroke-linejoin="round" />
+                            <!-- Tissue Box / Pack -->
+                            <rect x="95" y="65" width="130" height="62" rx="10" fill="#ffffff" stroke="#0f766e"
+                                stroke-width="2.5" />
+                            <rect x="105" y="75" width="110" height="42" rx="6" fill="#ccfbf1" />
+                            <text x="160" y="95" text-anchor="middle" font-size="11" font-weight="800" fill="#134e4a"
+                                font-family="Plus Jakarta Sans, sans-serif">GH SOFT TISSUE</text>
+                            <text x="160" y="109" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0f766e"
+                                font-family="Inter, sans-serif">50 • 60 • 75 • 90 • 100 PCS</text>
+                        </svg>
+                        <span
+                            class="absolute top-3 right-3 bg-teal-700 text-white text-xs px-3 py-1 rounded-full font-bold shadow-sm">5
+                            Pack Sizes</span>
+                    </div>
+
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-start gap-2">
+                                <h3 class="font-display font-extrabold text-lg text-slate-900">Tissue Papers</h3>
+                                <span
+                                    class="text-xs font-bold bg-teal-100 text-teal-800 px-2.5 py-1 rounded-lg shrink-0">Custom
+                                    Print</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">Ultra-soft, hygienic, and absorbent paper
+                                napkins for restaurants, hotels, offices, and events.</p>
+
+                            <!-- Pricing Table -->
+                            <div class="border border-teal-100 rounded-2xl overflow-x-auto text-xs">
+                                <table class="w-full text-left border-collapse">
+                                    <thead>
+                                        <tr class="bg-teal-50 text-teal-900 font-bold border-b border-teal-100">
+                                            <th class="py-2 px-3">Quantity</th>
+                                            <th class="py-2 px-3 text-right">Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-slate-100">
+                                        <tr>
+                                            <td class="py-2 px-3 font-medium text-slate-700">50 Pieces</td>
+                                            <td class="py-2 px-3 text-right font-extrabold text-teal-800">₹11</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-3 font-medium text-slate-700">60 Pieces</td>
+                                            <td class="py-2 px-3 text-right font-extrabold text-teal-800">₹13</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-3 font-medium text-slate-700">75 Pieces</td>
+                                            <td class="py-2 px-3 text-right font-extrabold text-teal-800">₹16</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-3 font-medium text-slate-700">90 Pieces</td>
+                                            <td class="py-2 px-3 text-right font-extrabold text-teal-800">₹18.5</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2 px-3 font-medium text-slate-700">100 Pieces</td>
+                                            <td class="py-2 px-3 text-right font-extrabold text-teal-800">₹21.5</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Custom Printing Note -->
+                            <div
+                                class="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-2.5 text-center text-xs text-amber-900 font-bold">
+                                <i data-lucide="printer" class="w-3.5 h-3.5 inline mr-1 text-amber-600"></i> ₹2 Extra
+                                for customized printing
+                            </div>
+                        </div>
+
+                        <button type="button" onclick="quickSelectProduct('tissue')"
+                            class="w-full min-h-[44px] bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl transition flex items-center justify-center shadow-sm">
+                            <i data-lucide="plus-circle" class="w-4 h-4 mr-1.5"></i> Add to Estimate
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 3. Paper Cups Card (Clean SVG Placeholder Illustration for 90ml, 110ml, 250ml, 300ml) -->
+                <div
+                    class="catalog-item category-cups bg-white rounded-3xl overflow-hidden shadow-sm border border-amber-100 hover:shadow-xl transition flex flex-col">
+                    <div
+                        class="h-44 sm:h-48 bg-gradient-to-br from-amber-100 via-yellow-50 to-emerald-100 relative flex items-center justify-center p-4 overflow-hidden">
+                        <!-- Clean SVG Placeholder Illustration for 90ml, 110ml, 250ml, 300ml Paper Cups -->
+                        <svg viewBox="0 0 320 160" class="w-full h-full max-h-40" xmlns="http://www.w3.org/2000/svg"
+                            role="img" aria-label="Paper Cups in 90ml, 110ml, 250ml, and 300ml sizes">
+                            <circle cx="160" cy="85" r="70" fill="#fde68a" opacity="0.55" />
+                            <!-- 300ml Cup -->
+                            <g transform="translate(35, 22)">
+                                <polygon points="6,10 54,10 47,108 13,108" fill="#ffffff" stroke="#15803d"
+                                    stroke-width="2.5" stroke-linejoin="round" />
+                                <rect x="3" y="5" width="54" height="6" rx="3" fill="#d97706" />
+                                <path d="M10,45 Q30,38 50,45 L48,75 Q30,68 12,75 Z" fill="#fef3c7" />
+                                <text x="30" y="63" text-anchor="middle" font-size="10" font-weight="800" fill="#14532d"
+                                    font-family="Plus Jakarta Sans, sans-serif">300ml</text>
+                            </g>
+                            <!-- 250ml Cup -->
+                            <g transform="translate(105, 36)">
+                                <polygon points="6,10 48,10 42,94 12,94" fill="#ffffff" stroke="#15803d"
+                                    stroke-width="2.5" stroke-linejoin="round" />
+                                <rect x="3" y="5" width="48" height="6" rx="3" fill="#16a34a" />
+                                <path d="M9,40 Q27,34 45,40 L43,66 Q27,60 11,66 Z" fill="#dcfce7" />
+                                <text x="27" y="56" text-anchor="middle" font-size="9.5" font-weight="800"
+                                    fill="#14532d" font-family="Plus Jakarta Sans, sans-serif">250ml</text>
+                            </g>
+                            <!-- 110ml Cup -->
+                            <g transform="translate(168, 56)">
+                                <polygon points="5,10 43,10 38,74 10,74" fill="#ffffff" stroke="#15803d"
+                                    stroke-width="2.5" stroke-linejoin="round" />
+                                <rect x="2" y="5" width="44" height="5.5" rx="2.75" fill="#d97706" />
+                                <path d="M8,32 Q24,27 40,32 L38,54 Q24,49 10,54 Z" fill="#fef3c7" />
+                                <text x="24" y="46" text-anchor="middle" font-size="9" font-weight="800" fill="#14532d"
+                                    font-family="Plus Jakarta Sans, sans-serif">110ml</text>
+                            </g>
+                            <!-- 90ml Cup -->
+                            <g transform="translate(225, 68)">
+                                <polygon points="5,10 39,10 34,62 10,62" fill="#ffffff" stroke="#15803d"
+                                    stroke-width="2.5" stroke-linejoin="round" />
+                                <rect x="2" y="5" width="40" height="5.5" rx="2.75" fill="#16a34a" />
+                                <path d="M8,28 Q22,24 36,28 L34,46 Q22,42 10,46 Z" fill="#dcfce7" />
+                                <text x="22" y="40" text-anchor="middle" font-size="8.5" font-weight="800"
+                                    fill="#14532d" font-family="Plus Jakarta Sans, sans-serif">90ml</text>
+                            </g>
+                        </svg>
+                        <span
+                            class="absolute top-3 right-3 bg-amber-600 text-white text-xs px-3 py-1 rounded-full font-bold shadow-sm">4
+                            Sizes Available</span>
+                    </div>
+
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-start gap-2">
+                                <h3 class="font-display font-extrabold text-lg text-slate-900">Paper Cups</h3>
+                                <span
+                                    class="text-xs font-bold bg-amber-100 text-amber-900 px-2.5 py-1 rounded-lg shrink-0">Hot
+                                    & Cold</span>
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">Leak-resistant, biodegradable disposable
+                                paper cups available in 4 convenient capacities for tea, coffee, water, and cold
+                                beverages.</p>
+
+                            <!-- 4 Sizes Grid -->
+                            <div class="grid grid-cols-2 gap-2.5 text-xs">
+                                <div
+                                    class="p-3 bg-gradient-to-br from-amber-50 to-orange-50/60 rounded-xl border border-amber-200/80 text-center">
+                                    <span class="block font-display text-slate-900 font-extrabold text-sm">90ml
+                                        Cup</span>
+                                    <span class="text-[11px] text-slate-600">Tea / Espresso</span>
+                                </div>
+                                <div
+                                    class="p-3 bg-gradient-to-br from-emerald-50 to-green-50/60 rounded-xl border border-emerald-200/80 text-center">
+                                    <span class="block font-display text-slate-900 font-extrabold text-sm">110ml
+                                        Cup</span>
+                                    <span class="text-[11px] text-slate-600">Filter Coffee / Tea</span>
+                                </div>
+                                <div
+                                    class="p-3 bg-gradient-to-br from-teal-50 to-cyan-50/60 rounded-xl border border-teal-200/80 text-center">
+                                    <span class="block font-display text-slate-900 font-extrabold text-sm">250ml
+                                        Cup</span>
+                                    <span class="text-[11px] text-slate-600">Water / Juice</span>
+                                </div>
+                                <div
+                                    class="p-3 bg-gradient-to-br from-lime-50 to-emerald-50/60 rounded-xl border border-lime-200/80 text-center">
+                                    <span class="block font-display text-slate-900 font-extrabold text-sm">300ml
+                                        Cup</span>
+                                    <span class="text-[11px] text-slate-600">Large Beverages</span>
+                                </div>
+                            </div>
+
+                            <div
+                                class="bg-amber-50 border border-amber-200 p-2.5 rounded-xl text-xs text-amber-900 text-center font-bold">
+                                Bulk & wholesale quote available on request
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2">
+                            <button type="button" onclick="quickSelectProduct('cup')"
+                                class="min-h-[44px] bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold py-2.5 px-3 rounded-xl transition flex items-center justify-center">
+                                <i data-lucide="plus-circle" class="w-4 h-4 mr-1"></i> Add to Estimate
+                            </button>
+                            <a href="https://wa.me/917010948118?text=Hello%20G.H.%20Enterprises,%20I%20would%20like%20a%20bulk%20quote%20for%20Paper%20Cups%20(90ml,%20110ml,%20250ml,%20300ml)."
+                                target="_blank" rel="noopener"
+                                class="min-h-[44px] bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 text-xs font-extrabold py-2.5 px-3 rounded-xl transition flex items-center justify-center text-center shadow-sm">
+                                WhatsApp Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Order Estimator & Instant WhatsApp Quote Calculator -->
+    <section id="calculator"
+        class="py-12 sm:py-16 bg-gradient-to-br from-emerald-900 via-teal-900 to-emerald-950 text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-2 mb-8 sm:mb-10">
+                <span
+                    class="inline-block px-3.5 py-1 rounded-full bg-amber-400/20 border border-amber-300/40 text-amber-300 font-bold text-xs tracking-wider uppercase">Instant
+                    Quote Tool</span>
+                <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-white">Order Estimator & Price
+                    Calculator</h2>
+                <p class="text-emerald-100/90 text-sm sm:text-base">Build your order list below to calculate estimated
+                    pricing and send directly via WhatsApp.</p>
+            </div>
+
+            <div
+                class="bg-white text-slate-800 rounded-3xl shadow-2xl border border-emerald-200/40 p-5 sm:p-8 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+                <!-- Left: Item Builder Controls -->
+                <div class="lg:col-span-7 space-y-4 sm:space-y-5">
+                    <h3 class="font-display font-extrabold text-slate-900 text-base sm:text-lg flex items-center">
+                        <span
+                            class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center mr-2.5">
+                            <i data-lucide="plus-circle" class="w-5 h-5"></i>
+                        </span>
+                        Select Product & Quantity
+                    </h3>
+
+                    <!-- Product Category Select -->
+                    <div>
+                        <label for="calc-product-type" class="block text-xs font-bold text-slate-700 mb-1.5">1. Product
+                            Category</label>
+                        <select id="calc-product-type" onchange="updateSubtypeOptions()"
+                            class="w-full min-h-[46px] px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm font-medium bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                            <option value="plate">Paper Plates (24 Pieces / Pack)</option>
+                            <option value="tissue">Soft Tissue Papers</option>
+                            <option value="cup">Paper Cups (90ml / 110ml / 250ml / 300ml)</option>
+                        </select>
+                    </div>
+
+                    <!-- Size / Pack Variant Select -->
+                    <div>
+                        <label for="calc-variant" class="block text-xs font-bold text-slate-700 mb-1.5">2. Size / Pack
+                            Variant</label>
+                        <select id="calc-variant"
+                            class="w-full min-h-[46px] px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm font-medium bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                            <!-- Populated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Custom Tissue Printing Toggle -->
+                    <div id="tissue-custom-option"
+                        class="hidden bg-gradient-to-r from-amber-50 to-orange-50 p-3.5 rounded-xl border border-amber-200">
+                        <label
+                            class="flex items-center space-x-3 text-xs sm:text-sm font-bold text-amber-900 cursor-pointer min-h-[32px]">
+                            <input type="checkbox" id="calc-custom-print"
+                                class="w-5 h-5 text-emerald-600 rounded focus:ring-emerald-500 shrink-0">
+                            <span>Include Customized Logo Printing (+ ₹2 extra per pack)</span>
+                        </label>
+                    </div>
+
+                    <!-- Quantity Input & Add Button -->
+                    <div>
+                        <label for="calc-qty" class="block text-xs font-bold text-slate-700 mb-1.5">3. Number of
+                            Packs</label>
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+                            <div
+                                class="flex items-center border border-slate-300 rounded-xl overflow-hidden bg-white sm:w-44">
+                                <button type="button" onclick="adjustQty(-1)" aria-label="Decrease quantity"
+                                    class="w-11 h-11 flex items-center justify-center text-slate-700 hover:bg-emerald-50 font-extrabold text-lg transition">-</button>
+                                <input type="number" id="calc-qty" value="10" min="1"
+                                    class="w-full h-11 text-center text-sm font-extrabold text-slate-900 focus:outline-none">
+                                <button type="button" onclick="adjustQty(1)" aria-label="Increase quantity"
+                                    class="w-11 h-11 flex items-center justify-center text-slate-700 hover:bg-emerald-50 font-extrabold text-lg transition">+</button>
+                            </div>
+                            <button type="button" onclick="addItemToEstimate()"
+                                class="flex-1 min-h-[46px] bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white px-5 py-3 rounded-xl text-sm font-extrabold shadow-md transition flex items-center justify-center">
+                                <i data-lucide="shopping-bag" class="w-4 h-4 mr-2"></i> Add to Order Summary
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Inline Feedback Banner -->
+                    <div id="calc-feedback" class="hidden rounded-xl p-3 text-xs font-bold"></div>
+                </div>
+
+                <!-- Right: Live Order Summary -->
+                <div
+                    class="lg:col-span-5 bg-gradient-to-b from-slate-50 to-emerald-50/40 p-5 sm:p-6 rounded-2xl border border-slate-200 flex flex-col justify-between space-y-4">
+                    <div>
+                        <div class="flex justify-between items-center border-b border-slate-200 pb-3 mb-3">
+                            <h4 class="font-display font-extrabold text-slate-900 text-base">Order Summary</h4>
+                            <button type="button" onclick="clearEstimate()"
+                                class="min-h-[36px] px-2.5 text-xs text-red-600 hover:bg-red-50 rounded-lg font-bold transition">
+                                Clear All
+                            </button>
+                        </div>
+
+                        <!-- Selected Line Items -->
+                        <div id="selected-items-list" class="space-y-2.5 max-h-60 overflow-y-auto text-xs pr-1">
+                            <p class="text-slate-400 italic text-center py-6">No items added yet. Select a product and
+                                tap "Add to Order Summary".</p>
+                        </div>
+                    </div>
+
+                    <!-- Total & WhatsApp / Copy Dispatch -->
+                    <div class="pt-4 border-t border-slate-200 space-y-3">
+                        <div
+                            class="flex justify-between items-center text-slate-900 font-extrabold text-base sm:text-lg">
+                            <span>Estimated Total:</span>
+                            <span id="grand-total" class="font-display text-emerald-700 text-2xl">₹0.00</span>
+                        </div>
+                        <p id="cup-quote-note"
+                            class="hidden text-[11px] text-amber-900 bg-amber-50 border border-amber-200 rounded-lg p-2 font-semibold">
+                            *Paper cup pricing is provided on bulk/wholesale quotation upon inquiry.
+                        </p>
+                        <p class="text-[11px] text-slate-500 leading-relaxed">
+                            *Final pricing may vary based on delivery location or wholesale order volume.
+                        </p>
+                        <div class="space-y-2">
+                            <button type="button" onclick="sendEstimateToWhatsApp()"
+                                class="w-full min-h-[48px] bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 text-white text-sm font-extrabold py-3 px-4 rounded-xl shadow-md transition flex items-center justify-center space-x-2">
+                                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                                <span>Send Quote via WhatsApp</span>
+                            </button>
+                            <button type="button" onclick="copyEstimateToClipboard()"
+                                class="w-full min-h-[44px] bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 text-xs font-bold py-2.5 px-4 rounded-xl transition flex items-center justify-center space-x-1.5">
+                                <i data-lucide="copy" class="w-4 h-4 text-slate-500"></i>
+                                <span>Copy Quote Summary</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section id="about" class="py-12 sm:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div
+                class="bg-gradient-to-r from-emerald-50 via-teal-50/60 to-amber-50/40 rounded-3xl p-6 sm:p-10 lg:p-12 border border-emerald-200/70 shadow-sm">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-8 space-y-4">
+                        <div
+                            class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 font-bold text-xs uppercase tracking-wider">
+                            <i data-lucide="info" class="w-3.5 h-3.5"></i>
+                            <span>Who We Are</span>
+                        </div>
+                        <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug">
+                            Dedicated to Sustainable & Hygienic Disposable Manufacturing
+                        </h2>
+                        <p class="text-slate-700 leading-relaxed text-sm sm:text-base">
+                            <strong>G.H. Enterprises</strong> is a manufacturing company established in
+                            <strong>2018</strong>, specializing in the production of paper plates, soft tissue paper,
+                            and paper cups. The company focuses on providing eco-friendly disposable products made from
+                            biodegradable paper materials.
+                        </p>
+                        <p class="text-slate-700 leading-relaxed text-sm sm:text-base">
+                            By avoiding plastic and using sustainable resources, G.H. Enterprises supports
+                            environmentally responsible practices. The company is committed to delivering hygienic,
+                            high-quality products while promoting a cleaner and greener future.
+                        </p>
+                    </div>
+                    <div
+                        class="lg:col-span-4 bg-white p-6 rounded-2xl border border-emerald-200 shadow-md text-center space-y-3">
+                        <div
+                            class="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 text-white rounded-2xl flex items-center justify-center mx-auto shadow-md">
+                            <i data-lucide="award" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display font-extrabold text-slate-900 text-lg">Factory Direct Supply</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            No.44, Thiruvalluvar Nagar, Srinivasa Nagar Extn, Kallikuppam, Ambattur, Chennai - 600053
+                        </p>
+                        <a href="tel:+917010948118"
+                            class="inline-flex items-center justify-center min-h-[44px] w-full px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-xs">
+                            <i data-lucide="phone" class="w-3.5 h-3.5 mr-1.5"></i> Call +91-7010948118
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Quick Inquiry Section -->
+    <section id="contact" class="py-12 sm:py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                <!-- Contact Information -->
+                <div class="space-y-6">
+                    <div>
+                        <span
+                            class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-bold text-xs tracking-wider uppercase">Contact
+                            Details</span>
+                        <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-white mt-2">Get In Touch With
+                            Us</h2>
+                        <p class="text-slate-400 text-sm sm:text-base mt-2">Reach out for retail packs, custom tissue
+                            printing, or wholesale bulk orders.</p>
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-start space-x-4 p-4 rounded-2xl bg-slate-800/80 border border-slate-700">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-white">Factory & Office Address</h3>
+                                <p class="text-slate-300 mt-1 leading-relaxed">No.44, Thiruvalluvar Nagar, Srinivasa
+                                    Nagar Extn, Kallikuppam, Ambattur, Chennai - 600053</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-2xl bg-slate-800/80 border border-slate-700">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="phone" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-white">Phone / WhatsApp</h3>
+                                <div class="text-slate-300 mt-1 flex flex-wrap gap-x-3 gap-y-1">
+                                    <a href="tel:+917010948118"
+                                        class="hover:text-amber-300 underline underline-offset-2 py-1">+91-7010948118</a>
+                                    <span class="text-slate-600 self-center">/</span>
+                                    <a href="tel:+919003201973"
+                                        class="hover:text-amber-300 underline underline-offset-2 py-1">+91-9003201973</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-2xl bg-slate-800/80 border border-slate-700">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="mail" class="w-5 h-5"></i>
+                            </div>
+                            <div class="min-w-0">
+                                <h3 class="font-display font-bold text-white">Email Address</h3>
+                                <p class="text-slate-300 mt-1 break-all">
+                                    <a href="mailto:ghenterprises116@gmail.com"
+                                        class="hover:text-teal-300 underline underline-offset-2 py-1 inline-block">ghenterprises116@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Inquiry Form -->
+                <div class="bg-slate-800 p-6 sm:p-8 rounded-3xl border border-slate-700 shadow-xl">
+                    <h3 class="font-display text-xl font-extrabold text-white mb-4">Send Us a Direct Inquiry</h3>
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div>
+                            <label for="contact-name" class="block text-xs font-semibold text-slate-300 mb-1.5">Your
+                                Name</label>
+                            <input type="text" id="contact-name" required placeholder="Enter your name"
+                                class="w-full min-h-[46px] px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-500">
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="contact-phone"
+                                    class="block text-xs font-semibold text-slate-300 mb-1.5">Phone Number</label>
+                                <input type="tel" id="contact-phone" required placeholder="+91 98765 43210"
+                                    class="w-full min-h-[46px] px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-500">
+                            </div>
+                            <div>
+                                <label for="contact-product"
+                                    class="block text-xs font-semibold text-slate-300 mb-1.5">Product Interested</label>
+                                <select id="contact-product"
+                                    class="w-full min-h-[46px] px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-500">
+                                    <option>Paper Plates (Sizes 6–13)</option>
+                                    <option>Tissue Papers</option>
+                                    <option>Paper Cups (90ml–300ml)</option>
+                                    <option>General Bulk Order</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="contact-msg" class="block text-xs font-semibold text-slate-300 mb-1.5">Message /
+                                Requirements</label>
+                            <textarea id="contact-msg" rows="3"
+                                placeholder="Tell us about required sizes, quantities, or custom printing..."
+                                class="w-full p-3.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-500"></textarea>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <button type="submit"
+                                class="w-full min-h-[48px] bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-extrabold py-3 px-4 rounded-xl transition flex items-center justify-center space-x-2 shadow-md">
+                                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                                <span>Send via WhatsApp</span>
+                            </button>
+                            <button type="button" onclick="sendEmailInquiry()"
+                                class="w-full min-h-[48px] bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-4 rounded-xl transition flex items-center justify-center space-x-2">
+                                <i data-lucide="mail" class="w-4 h-4"></i>
+                                <span>Send via Email</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-8 pb-24 sm:pb-8 border-t border-slate-800 text-xs">
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+            <div>
+                <p class="font-semibold text-slate-300">&copy; 2018 - <span id="current-year"></span> G.H. ENTERPRISES.
+                    All Rights Reserved.</p>
+                <p class="text-slate-500 mt-1">Eco-Friendly Choices for a Better Tomorrow • Ambattur, Chennai - 600053
+                </p>
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-4">
+                <a href="#home" class="hover:text-white transition py-1">Home</a>
+                <span>•</span>
+                <a href="#products" class="hover:text-white transition py-1">Products</a>
+                <span>•</span>
+                <a href="#calculator" class="hover:text-white transition py-1">Price Estimator</a>
+                <span>•</span>
+                <a href="#contact" class="hover:text-white transition py-1">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile-Friendly WhatsApp CTA Button -->
+    <a href="https://wa.me/917010948118?text=Hello%20G.H.%20Enterprises,%20I%20have%20an%20inquiry%20regarding%20your%20products."
+        target="_blank" rel="noopener"
+        class="fixed bottom-5 right-5 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400 hover:to-emerald-500 text-white min-w-[52px] min-h-[52px] px-4 py-3 rounded-full shadow-2xl transition duration-300 z-50 flex items-center justify-center space-x-2"
+        aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-6 h-6"></i>
+        <span class="text-xs font-extrabold hidden sm:inline">WhatsApp Order</span>
+    </a>
+
+    <!-- Application Logic -->
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Dynamic Year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile Hamburger Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const iconOpen = document.getElementById('menu-icon-open');
+        const iconClose = document.getElementById('menu-icon-close');
+
+        function toggleMobileMenu(forceClose = false) {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            const shouldOpen = forceClose ? false : isHidden;
+
+            if (shouldOpen) {
+                mobileMenu.classList.remove('hidden');
+                iconOpen.classList.add('hidden');
+                iconClose.classList.remove('hidden');
+                mobileBtn.setAttribute('aria-expanded', 'true');
+            } else {
+                mobileMenu.classList.add('hidden');
+                iconOpen.classList.remove('hidden');
+                iconClose.classList.add('hidden');
+                mobileBtn.setAttribute('aria-expanded', 'false');
+            }
+        }
+
+        mobileBtn.addEventListener('click', () => toggleMobileMenu());
+
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => toggleMobileMenu(true));
+        });
+
+        // Product Pricing Data
+        const plateVariants = [
+            { size: 'Size 6 (24 Pieces)', price: 10 },
+            { size: 'Size 7 (24 Pieces)', price: 13 },
+            { size: 'Size 8 (24 Pieces)', price: 16 },
+            { size: 'Size 9 (24 Pieces)', price: 20 },
+            { size: 'Size 10 (24 Pieces)', price: 27 },
+            { size: 'Size 11 (24 Pieces)', price: 36 },
+            { size: 'Size 12 (24 Pieces)', price: 46 },
+            { size: 'Size 13 (24 Pieces)', price: 56 },
+        ];
+
+        const tissueVariants = [
+            { pack: '50 Pieces', price: 11 },
+            { pack: '60 Pieces', price: 13 },
+            { pack: '75 Pieces', price: 16 },
+            { pack: '90 Pieces', price: 18.5 },
+            { pack: '100 Pieces', price: 21.5 },
+        ];
+
+        const cupVariants = [
+            { size: '90ml Cup', price: 0, note: 'Bulk Quote on Request' },
+            { size: '110ml Cup', price: 0, note: 'Bulk Quote on Request' },
+            { size: '250ml Cup', price: 0, note: 'Bulk Quote on Request' },
+            { size: '300ml Cup', price: 0, note: 'Bulk Quote on Request' },
+        ];
+
+        let selectedItems = [];
+
+        // Show inline feedback banner (no browser alert())
+        function showCalcFeedback(message, isError = false) {
+            const banner = document.getElementById('calc-feedback');
+            banner.textContent = message;
+            banner.className = isError
+                ? 'rounded-xl p-3 text-xs font-bold bg-red-50 text-red-700 border border-red-200'
+                : 'rounded-xl p-3 text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200';
+            banner.classList.remove('hidden');
+            setTimeout(() => {
+                banner.classList.add('hidden');
+            }, 3500);
+        }
+
+        // Populate Size / Variant Dropdown
+        function updateSubtypeOptions() {
+            const type = document.getElementById('calc-product-type').value;
+            const variantSelect = document.getElementById('calc-variant');
+            const customOption = document.getElementById('tissue-custom-option');
+
+            variantSelect.innerHTML = '';
+
+            if (type === 'plate') {
+                customOption.classList.add('hidden');
+                plateVariants.forEach((item, index) => {
+                    const opt = document.createElement('option');
+                    opt.value = index;
+                    opt.textContent = `${item.size} - ₹${item.price}`;
+                    variantSelect.appendChild(opt);
+                });
+            } else if (type === 'tissue') {
+                customOption.classList.remove('hidden');
+                tissueVariants.forEach((item, index) => {
+                    const opt = document.createElement('option');
+                    opt.value = index;
+                    opt.textContent = `${item.pack} - ₹${item.price}`;
+                    variantSelect.appendChild(opt);
+                });
+            } else if (type === 'cup') {
+                customOption.classList.add('hidden');
+                cupVariants.forEach((item, index) => {
+                    const opt = document.createElement('option');
+                    opt.value = index;
+                    opt.textContent = `${item.size} (${item.note})`;
+                    variantSelect.appendChild(opt);
+                });
+            }
+        }
+
+        // Quick-jump from Product Card "Add to Estimate" button
+        function quickSelectProduct(categoryType) {
+            const typeSelect = document.getElementById('calc-product-type');
+            typeSelect.value = categoryType;
+            updateSubtypeOptions();
+            document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Adjust Quantity with +/- Touch Buttons
+        function adjustQty(delta) {
+            const input = document.getElementById('calc-qty');
+            const current = parseInt(input.value, 10) || 1;
+            const next = Math.max(1, current + delta);
+            input.value = next;
+        }
+
+        // Initialize Options on Load
+        updateSubtypeOptions();
+
+        // Add Item to Order Summary
+        function addItemToEstimate() {
+            const type = document.getElementById('calc-product-type').value;
+            const variantIdx = parseInt(document.getElementById('calc-variant').value, 10);
+            const qty = Math.max(1, parseInt(document.getElementById('calc-qty').value, 10) || 1);
+
+            let name = '';
+            let unitPrice = 0;
+
+            if (type === 'plate') {
+                const item = plateVariants[variantIdx];
+                name = `Paper Plates - ${item.size}`;
+                unitPrice = item.price;
+            } else if (type === 'tissue') {
+                const item = tissueVariants[variantIdx];
+                const isCustomPrint = document.getElementById('calc-custom-print').checked;
+                unitPrice = item.price + (isCustomPrint ? 2 : 0);
+                name = `Tissue Papers - ${item.pack}${isCustomPrint ? ' (+₹2 Custom Print)' : ''}`;
+            } else if (type === 'cup') {
+                const item = cupVariants[variantIdx];
+                name = `Paper Cups - ${item.size}`;
+                unitPrice = 0;
+            }
+
+            const totalPrice = unitPrice * qty;
+
+            selectedItems.push({
+                name,
+                qty,
+                unitPrice,
+                totalPrice,
+                isCup: type === 'cup'
+            });
+
+            renderEstimateList();
+            showCalcFeedback(`Added ${qty} pack(s) of ${name} to your estimate.`);
+        }
+
+        // Render Order Summary
+        function renderEstimateList() {
+            const listEl = document.getElementById('selected-items-list');
+            const totalEl = document.getElementById('grand-total');
+            const cupNoteEl = document.getElementById('cup-quote-note');
+
+            if (selectedItems.length === 0) {
+                listEl.innerHTML = '<p class="text-slate-400 italic text-center py-6">No items added yet. Select a product and tap "Add to Order Summary".</p>';
+                totalEl.textContent = '₹0.00';
+                cupNoteEl.classList.add('hidden');
+                return;
+            }
+
+            let html = '';
+            let grandTotal = 0;
+            let hasCup = false;
+
+            selectedItems.forEach((item, index) => {
+                grandTotal += item.totalPrice;
+                if (item.isCup) hasCup = true;
+                html += `
+                    <div class="flex justify-between items-center gap-2 bg-white p-3 rounded-xl border border-slate-200 shadow-xs">
+                        <div class="min-w-0">
+                            <span class="font-bold text-slate-900 block truncate">${item.name}</span>
+                            <span class="text-[11px] text-slate-500">${item.qty} pack(s) ${item.isCup ? '(Quote on Request)' : `@ ₹${item.unitPrice}/pack`}</span>
+                        </div>
+                        <div class="flex items-center space-x-2 shrink-0">
+                            <span class="font-extrabold text-slate-900">${item.isCup ? 'Quote' : '₹' + item.totalPrice.toFixed(2)}</span>
+                            <button type="button" onclick="removeItem(${index})" aria-label="Remove item" class="w-8 h-8 flex items-center justify-center rounded-lg text-red-500 hover:bg-red-50 transition">
+                                <i data-lucide="trash-2" class="w-4 h-4"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            listEl.innerHTML = html;
+            totalEl.textContent = `₹${grandTotal.toFixed(2)}`;
+            if (hasCup) {
+                cupNoteEl.classList.remove('hidden');
+            } else {
+                cupNoteEl.classList.add('hidden');
+            }
+            lucide.createIcons();
+        }
+
+        function removeItem(index) {
+            selectedItems.splice(index, 1);
+            renderEstimateList();
+        }
+
+        function clearEstimate() {
+            selectedItems = [];
+            renderEstimateList();
+        }
+
+        // Format Quote Summary Text
+        function buildQuoteMessage() {
+            let text = "Hello G.H. Enterprises, I would like to request a quote for the following items:\n\n";
+            let total = 0;
+
+            selectedItems.forEach((item, idx) => {
+                total += item.totalPrice;
+                if (item.isCup) {
+                    text += `${idx + 1}. ${item.name} - Qty: ${item.qty} pack(s) (Bulk Quote Request)\n`;
+                } else {
+                    text += `${idx + 1}. ${item.name} - Qty: ${item.qty} pack(s) = ₹${item.totalPrice.toFixed(2)}\n`;
+                }
+            });
+
+            text += `\nEstimated Total: ₹${total.toFixed(2)}\n\nPlease confirm availability and delivery details. Thank you!`;
+            return text;
+        }
+
+        // Dispatch Order Summary to WhatsApp (+917010948118)
+        function sendEstimateToWhatsApp() {
+            if (selectedItems.length === 0) {
+                showCalcFeedback('Please add at least one product to your estimate before sending.', true);
+                return;
+            }
+            const text = buildQuoteMessage();
+            window.open(`https://wa.me/917010948118?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        // Copy Order Summary to Clipboard using textarea + execCommand('copy')
+        function copyEstimateToClipboard() {
+            if (selectedItems.length === 0) {
+                showCalcFeedback('Please add at least one product to your estimate before copying.', true);
+                return;
+            }
+            const text = buildQuoteMessage();
+            const tempTextarea = document.createElement('textarea');
+            tempTextarea.value = text;
+            tempTextarea.style.position = 'fixed';
+            tempTextarea.style.opacity = '0';
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            try {
+                document.execCommand('copy');
+                showCalcFeedback('Quote summary copied to clipboard!');
+            } catch (err) {
+                showCalcFeedback('Unable to copy automatically. Please use Send via WhatsApp.', true);
+            }
+            document.body.removeChild(tempTextarea);
+        }
+
+        // Filter Product Catalog by Category
+        function filterCategory(category) {
+            const items = document.querySelectorAll('.catalog-item');
+            const buttons = document.querySelectorAll('.cat-btn');
+
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-gradient-to-r', 'from-emerald-600', 'to-teal-600', 'text-white', 'shadow-sm');
+                btn.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+            });
+
+            const activeBtn = document.getElementById(`cat-${category}`);
+            if (activeBtn) {
+                activeBtn.classList.add('bg-gradient-to-r', 'from-emerald-600', 'to-teal-600', 'text-white', 'shadow-sm');
+                activeBtn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+            }
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(`category-${category}`)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Live Search Filter
+        function searchCatalog() {
+            const query = document.getElementById('catalog-search').value.toLowerCase();
+            const items = document.querySelectorAll('.catalog-item');
+
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(query) ? 'flex' : 'none';
+            });
+        }
+
+        // Direct Contact Form Submission via WhatsApp
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('contact-name').value;
+            const phone = document.getElementById('contact-phone').value;
+            const product = document.getElementById('contact-product').value;
+            const msg = document.getElementById('contact-msg').value;
+
+            const text = `New Website Inquiry - G.H. Enterprises:\nName: ${name}\nPhone: ${phone}\nProduct: ${product}\nMessage: ${msg}`;
+            window.open(`https://wa.me/917010948118?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        // Direct Contact Form Submission via Email
+        function sendEmailInquiry() {
+            const name = document.getElementById('contact-name').value || 'Customer';
+            const phone = document.getElementById('contact-phone').value || 'Not provided';
+            const product = document.getElementById('contact-product').value;
+            const msg = document.getElementById('contact-msg').value || 'Please share pricing and availability.';
+
+            const subject = `Product Inquiry from ${name} - G.H. Enterprises`;
+            const body = `Name: ${name}\nPhone: ${phone}\nProduct Interested: ${product}\n\nMessage:\n${msg}`;
+            window.location.href = `mailto:ghenterprises116@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        }
+    </script>
+</body>
+
+</html>
